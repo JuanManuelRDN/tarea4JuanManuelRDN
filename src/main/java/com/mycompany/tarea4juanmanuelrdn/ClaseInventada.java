@@ -12,4 +12,14 @@ package com.mycompany.tarea4juanmanuelrdn;
 public class ClaseInventada {
     private int atributo;
     private String inventado;
+
+    public ClaseInventada(int atributo, String inventado) {
+        this.atributo = atributo;
+        this.inventado = inventado;
+    }
+    
+    public ClaseInventada() {
+        this.atributo = 2;
+        this.inventado = "hola";
+    }
 }
