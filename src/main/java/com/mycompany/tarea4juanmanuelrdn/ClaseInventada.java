@@ -22,4 +22,27 @@ public class ClaseInventada {
         this.atributo = 23;
         this.inventado = "Hola";
     }
+
+    public int getAtributo() {
+        return atributo;
+    }
+
+    public void setAtributo(int atributo) {
+        this.atributo = atributo;
+    }
+
+    public String getInventado() {
+        return inventado;
+    }
+
+    public void setInventado(String inventado) {
+        this.inventado = inventado;
+    }
+
+    @Override
+    public String toString() {
+        return "ClaseInventada{" + "atributo=" + atributo + ", inventado=" + inventado + '}';
+    }
+    
+    
 }
