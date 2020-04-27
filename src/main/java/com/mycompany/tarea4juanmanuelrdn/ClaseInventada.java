@@ -6,7 +6,7 @@
 package com.mycompany.tarea4juanmanuelrdn;
 
 /**
- *
+ * 
  * @author Usuario
  */
 public class ClaseInventada {
@@ -19,7 +19,7 @@ public class ClaseInventada {
     }
     
     public ClaseInventada() {
-        this.atributo = 2;
-        this.inventado = "hola";
+        this.atributo = 23;
+        this.inventado = "Hola";
     }
 }
